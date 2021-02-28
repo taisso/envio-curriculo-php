@@ -4,8 +4,7 @@ APLICAÇÃO LARAVEL PARA ENVIO DE CURRÍCULOS
 
 
 ## Configuração do projeto
-- Baixe o composer https://getcomposer.org/download/
-- Extraia o projeto Laravel / php do provedor git.
+- Baixe o composer https://getcomposer.org/download/ (Caso não possua)
 - Em seguida escolha uma das configurações abaixo
 
 
