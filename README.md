@@ -2,18 +2,14 @@
 
 APLICAÇÃO LARAVEL PARA ENVIO DE CURRÍCULOS
 
-## Resalte
-
-- O banco de dados utilizado em nuvem foi [Postgres](https://www.postgresql.org/)
-
-
 
 ## Configuração do projeto
 - Baixe o composer https://getcomposer.org/download/
 - Extraia o projeto Laravel / php do provedor git.
+- Em seguida escolha uma das configurações abaixo
 
 
-## Configuração FORMA 1:
+## Configuração MÉTODO 1:
 - Renomeie o arquivo `.env.example` para` .env` dentro da raiz do projeto e preencha as informações do banco de dados.
   (o Windows não permitirá que você faça isso, então você tem que abrir seu console, cd, seu diretório raiz do projeto e executar `mv .env.example .env`)
 - Abra o console e faça cd do diretório raiz do seu projeto
@@ -23,7 +19,7 @@ APLICAÇÃO LARAVEL PARA ENVIO DE CURRÍCULOS
 
 
 
-## Configuração FORMA 2(Caso queira configurar manualmente o banco e o serviço de email):
+## Configuração MÉTODO 2(Caso queira configurar manualmente o banco e o serviço de email):
 - No` .env` dentro da raiz do projeto e preencha as informações do banco de dados de sua preferência.
   (o Windows não permitirá que você faça isso, então você tem que abrir seu console, cd, seu diretório raiz do projeto e executar `mv .env.example .env`)
 - Abra o console e faça cd do diretório raiz do seu projeto
@@ -47,6 +43,13 @@ http://localhost:8000
 -> Laravel
 -> Gerenciador de pacote: composer
 -> Bootstrap
+-> PostgreSQL
 ```
 
-### Possível erro:
+### Se for usar o PostgreSQL:
+- É possível que você enfrente esse erro:
+[
+![Imagem de erro](https://user-images.githubusercontent.com/54849874/109437617-7ec17e80-7a04-11eb-9ba6-406d6b46a2c8.png)
+](url)
+
+- Caso se depare com ele, acesse esse [Post](https://tonyfrenzy.medium.com/using-postgresql-with-laravel-c4c320ca7f34) para sanar o prolema. O motivo é do erro foi, pois o PHP é configurado por padrão para utilizar o MySQL, para isso é necessário ativar o PostgreSQL na configuração do PHP para funcionar.
