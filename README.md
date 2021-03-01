@@ -3,7 +3,7 @@
 APLICAÇÃO LARAVEL PARA ENVIO DE CURRÍCULOS
 
 ## Antes de começar
-- Como o banco é numvem lentidos durante as requisiçõs podem acontecer.
+- Como o banco é nuvem a nível gratuito ele pode apresentar lentidos durante as requisiçõs.
 
 
 ### Configuração do projeto
