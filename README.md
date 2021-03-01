@@ -2,13 +2,17 @@
 
 APLICAÇÃO LARAVEL PARA ENVIO DE CURRÍCULOS
 
+## Antes de começar
+- Eu deixei as credencias das variaveis de ambiente do email e do banco de dados em numvem expostos para facitar o acesso de vocês. Após a avaliação será feita a remoção do mesmo. Elas estão no ``.env.example`.
+- Como o banco é numvem lentidos durante as requisiçõs podem acontecer.
 
-## Configuração do projeto
+
+### Configuração do projeto
 - Baixe o composer https://getcomposer.org/download/ (Caso não possua)
 - Em seguida escolha uma das configurações abaixo
 
 
-## Configuração MÉTODO 1:
+### Configuração MÉTODO 1:
 - Renomeie o arquivo `.env.example` para` .env` dentro da raiz do projeto e preencha as informações do banco de dados.
   (o Windows não permitirá que você faça isso, então você tem que abrir seu console, cd, seu diretório raiz do projeto e executar `mv .env.example .env`)
 - Abra o console e faça cd do diretório raiz do seu projeto
@@ -18,7 +22,7 @@ APLICAÇÃO LARAVEL PARA ENVIO DE CURRÍCULOS
 
 
 
-## Configuração MÉTODO 2(Caso queira configurar manualmente o banco e o serviço de email):
+### Configuração MÉTODO 2(Caso queira configurar manualmente o banco e o serviço de email):
 - No` .env` dentro da raiz do projeto e preencha as informações do banco de dados de sua preferência.
   (o Windows não permitirá que você faça isso, então você tem que abrir seu console, cd, seu diretório raiz do projeto e executar `mv .env.example .env`)
 - Abra o console e faça cd do diretório raiz do seu projeto
