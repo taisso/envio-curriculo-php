@@ -12,7 +12,7 @@ APLICAÇÃO LARAVEL PARA ENVIO DE CURRÍCULOS
 
 
 ### Configuração MÉTODO 1:
-- Use as variaveis envia para vocês e coloque `.env` dentro da raiz do projeto e preencha as informações do banco de dados.
+- Use as variaveis que foi enviada para vocês e coloque `.env` dentro da raiz do projeto e preencha as informações do banco de dados.
   (o Windows não permitirá que você faça isso, então você tem que abrir seu console, cd, seu diretório raiz do projeto e executar `mv .env.example .env`)
 - Abra o console e faça cd do diretório raiz do seu projeto
 - Execute `composer install` ou` `` php composer.phar install```
